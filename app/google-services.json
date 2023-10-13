@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1027005594961",
+    "project_id": "android-finalterm-2023",
+    "storage_bucket": "android-finalterm-2023.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1027005594961:android:af756098d5a519db722770",
+        "android_client_info": {
+          "package_name": "com.example.learnguaue"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAg3r34wnM1x0r6_RA0JqWdgJyPztzCw1o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
