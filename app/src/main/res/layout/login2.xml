@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="50"
+    android:background="#6A7185"
+    android:orientation="vertical">
+
+    <ScrollView android:id="@+id/iphone_14_plus___1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout android:id="@+id/content_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+
+
+            <RelativeLayout android:id="@+id/page_iphone_14_plus___1_ek1"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <View
+                    android:id="@+id/_bg__iphone_14_plus___1_ek2"
+                    android:layout_width="407dp"
+                    android:layout_height="787dp"
+                    android:layout_marginStart="0dp"
+                    android:background="@drawable/_bg__iphone_14_plus___1_ek2_shape" />
+
+<!--                android:textColor="@color/quizlet_color"-->
+                <TextView
+                    android:id="@+id/quizlet"
+                    android:textSize="30sp"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="32dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Learn Language"
+                    />
+
+                <ImageView android:id="@+id/search"
+                    android:src="@drawable/search"
+                    android:contentDescription="search"
+                    android:layout_marginStart="343dp"
+                    android:layout_marginTop="31dp"
+                    android:layout_width="48dp"
+                    android:layout_height="35dp" />
+<!--                android:background="@drawable/rectangle_1_shape"-->
+                <View
+                    android:id="@+id/rectangle_1"
+                    android:layout_width="253dp"
+                    android:layout_height="42dp"
+                    android:layout_marginStart="77dp"
+                    android:layout_marginTop="547dp"
+                    android:background="@color/colorRectangle" />
+
+                <View
+                    android:id="@+id/rectangle_3"
+                    android:background="@color/colorRectangle"
+                    android:layout_marginStart="77dp"
+                    android:layout_marginTop="611dp"
+                    android:layout_width="253dp"
+                    android:layout_height="42dp" />
+
+                <TextView
+                    android:id="@+id/__ng_k__mi_n_ph__ek1"
+                    android:layout_width="167dp"
+                    android:layout_height="26dp"
+                    android:layout_marginLeft="122dp"
+                    android:layout_marginTop="557dp"
+                    android:text="Đăng ký miễn phí"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <TextView android:id="@+id/ho_c___ng_nh_p"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="122dp"
+                    android:layout_marginTop="620dp"
+                    android:layout_width="172dp"
+                    android:layout_height="30dp"
+                    android:text="Hoặc đăng nhập"
+                    />
+                        <!--width :chieu rong, height cao, start le trai,top ben tren -->
+                <ImageView
+                    android:id="@+id/quizlet_ios_onboarding_1_1"
+                    android:layout_width="258dp"
+                    android:layout_height="261dp"
+                    android:layout_marginStart="74dp"
+                    android:layout_marginTop="188dp"
+                    android:contentDescription="quizlet_ios_onboarding_1_1"
+                    android:src="@drawable/logo_app" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </ScrollView>
+
+</HorizontalScrollView>
