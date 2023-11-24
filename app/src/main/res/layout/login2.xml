@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_weight="50"
-    android:background="@drawable/background"
+    android:background="#6A7185"
     android:orientation="vertical">
 
     <ScrollView android:id="@+id/iphone_14_plus___1"
@@ -15,6 +15,7 @@
             android:layout_height="wrap_content" >
 
 
+
             <RelativeLayout android:id="@+id/page_iphone_14_plus___1_ek1"
                 android:layout_marginTop="0dp"
                 android:layout_marginStart="0dp"
@@ -22,8 +23,15 @@
                 android:layout_height="wrap_content"
                 >
 
-                <TextView
+                <View
+                    android:id="@+id/_bg__iphone_14_plus___1_ek2"
+                    android:layout_width="407dp"
+                    android:layout_height="787dp"
+                    android:layout_marginStart="0dp"
+                    android:background="@drawable/_bg__iphone_14_plus___1_ek2_shape" />
 
+<!--                android:textColor="@color/quizlet_color"-->
+                <TextView
                     android:id="@+id/quizlet"
                     android:textSize="30sp"
                     android:textColor="@color/white"
@@ -34,6 +42,14 @@
                     android:text="Learn Language"
                     />
 
+                <ImageView android:id="@+id/search"
+                    android:src="@drawable/search"
+                    android:contentDescription="search"
+                    android:layout_marginStart="343dp"
+                    android:layout_marginTop="31dp"
+                    android:layout_width="48dp"
+                    android:layout_height="35dp" />
+<!--                android:background="@drawable/rectangle_1_shape"-->
                 <View
                     android:id="@+id/rectangle_1"
                     android:layout_width="253dp"
