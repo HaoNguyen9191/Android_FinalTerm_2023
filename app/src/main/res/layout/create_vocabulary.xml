@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<TextView
+    android:id="@+id/titleTextView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Create vocabulary"
+    android:textSize="24sp"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#DDDDDD"/>
+
+<EditText
+    android:id="@+id/editTextTopic"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/titleTextView"
+    android:hint="Topic"
+    android:textSize="18sp"
+    android:gravity="center_vertical"
+    android:padding="8dp"
+    android:focusable="true"
+    android:focusableInTouchMode="true"/>
+
+    <!-- item_vocabulary.xml -->
+    <LinearLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/termTextInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/termEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:hint="thuật ngữ"
+                android:padding="8dp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/definitionTextInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/definitionEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:hint="Định nghĩa"
+                android:padding="8dp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
+

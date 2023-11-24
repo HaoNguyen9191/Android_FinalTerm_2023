@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_home"
+        android:title="@string/action_home"
+        android:icon="@drawable/home"/>
+
+    <item android:id="@+id/action_answer"
+        android:title="@string/action_answer"
+        android:icon="@drawable/answer"/>
+
+    <item android:id="@+id/action_add"
+        android:title="@string/action_add"
+        android:icon="@drawable/add"/>
+
+    <item android:id="@+id/action_library"
+        android:title="@string/action_library"
+        android:icon="@drawable/library"/>
+
+    <item android:id="@+id/action_person"
+        android:title="@string/action_person"
+        android:icon="@drawable/person"/>
+</menu>

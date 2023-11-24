@@ -7,7 +7,7 @@
     android:paddingTop="16dp"
     android:paddingRight="16dp"
     android:paddingBottom="16dp"
-    android:background="#45B2E3"
+    android:background="@drawable/background"
     tools:context=".LoginActivity">
 
     <ImageView
@@ -26,6 +26,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/imageViewLogo"
+        android:textColorHint="@color/white"
         android:layout_marginTop="16dp"
         android:hint="Username"
         android:inputType="text"
@@ -36,6 +37,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/editTextUsername"
+        android:textColorHint="@color/white"
         android:layout_marginTop="8dp"
         android:hint="Password"
         android:inputType="textPassword"
@@ -56,7 +58,7 @@
         android:layout_below="@id/editTextPassword"
         android:layout_marginTop="16dp"
         android:text="Login"
-        android:background="#E41212"
+        android:background="#21AC26"
         android:onClick="login"
         />
 
